@@ -26,7 +26,7 @@ const Navbar = () => {
                 <AiOutlineUser />
               </div>
               <div>
-                <p className="text-gray-500  ">Hello, Sign in</p>
+                <p className="text-gray-500  ">Hello, Ovi</p>
                 <p className=" font-medium ">Your Account</p>
               </div>
             </div>
