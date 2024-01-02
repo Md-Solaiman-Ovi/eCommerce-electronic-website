@@ -9,14 +9,18 @@ const Navbar = () => {
     <div className="pt-4 bg-white top-0 sticky">
       <div className="container">
         <div className="flex justify-between items-center">
-          <h1 className="text-4xl font-bold">Logo</h1>
-          <div className="lg:flex hidden w-full max-w-[500px]">
+          <h1 className="text-5xl font-bold">
+            <span className=" font-['Oregano',cursive] text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-accent  ">
+              Electron
+            </span>
+          </h1>
+          <div className="lg:flex hidden w-full max-w-[500px] ">
             <input
               className="border-2 border-accent px-6 py-2 w-full"
               type="text"
               placeholder="Search for products..."
             />
-            <div className="bg-accent text-white text-[26px] grid place-items-center px-4">
+            <div className="bg-accent text-white text-[26px] grid place-items-center px-4 ">
               <BsSearch />
             </div>
           </div>
