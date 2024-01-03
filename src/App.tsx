@@ -8,11 +8,15 @@ import { Toaster } from "react-hot-toast";
 import Banner from "./components/Banner";
 import NewArival from "./components/NewArrival";
 import Footer from "./components/Footer";
+import Cart from "./components/Cart";
+import { useState } from "react";
 const App = () => {
+  const [showCart, setShowCart]= useState<boolean>(false)
   return (
     <div>
       <Provider store={store}>
-        <Navbar />
+        <Navbar setShowCart={setShowCart} />
+        { showCart && <Cart setShowCart={setShowCart}/>}
         <Hero />
         <Feature />
         <TrendingProducts />
