@@ -1,3 +1,5 @@
+import Img1 from "../assets/images/hero.png";
+
 const Hero = () => {
   return (
     <div className="bg-[#E3EDF6] mt-4 ">
@@ -24,11 +26,7 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <img
-            className="ml-auto"
-            src="./../../public/images/hero.png"
-            alt="hero image"
-          />
+          <img className="ml-auto" src={Img1} alt="hero image" />
         </div>
       </div>
     </div>
